@@ -205,7 +205,7 @@ println("get")
 
 func Init(fileName string) (err error) {
 	myConfig := new(Config)
-	myConfig.InitConfig("conf/findfiles.conf")
+	myConfig.InitConfig("conf/dirscan.conf")
 	fmt.Println(myConfig.Read("path", "concurrentNumber"))
 	//fmt.Printf("%v", myConfig.Mymap)
 
